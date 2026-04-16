@@ -8,7 +8,7 @@ export type SubjectType =
   | 'religion' 
   | 'computer'
   | 'break'
-  | 'jam_walas'
+  | 'jam_walas';
 
 export interface ScheduleItem {
   id: string;
@@ -28,21 +28,23 @@ export interface DaySchedule {
 
 export const scheduleData: DaySchedule[] = [
   {
-    day: 'Jumat',
+    day: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH',
     dayShort: '',
     items: [
       { id: '1', subject: 'Renungan Pagi', subjectType: 'religion', room: 'Kelas XI-4', startTime: '06.30', endTime: '06.50' },
-      { id: '2', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '06.50', endTime: '07.35' },
-      { id: '3', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '07.35', endTime: '08.20' },
-      { id: '4', subject: 'Matematika Wajib', subjectType: 'math', room: 'Kelas XI-4', startTime: '08.20', endTime: '09.05' },
-      { id: '5', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas', startTime: '09.05', endTime: '09.35' },
-      { id: '6', subject: 'Bio 1 / Kimia 2 / Eko 3&4 / Sej 2 / Fis 2 / Fis 3', subjectType: 'science', room: 'u know la', startTime: '09.35', endTime: '10.20' },
-      { id: '7', subject: 'Bio 1 / Kimia 2 / Eko 3&4 / Sej 2 / Fis 2 / Fis 3', subjectType: 'science', room: 'u know la', startTime: '10.20', endTime: '11.05' },
-      { id: '8', subject: 'Inf 1 / Inf 2 / Kim 1 / Mat 1 / Mat 2 / Sej 1', subjectType: 'science', room: 'u know la', startTime: '11.05', endTime: '11.50' },
-      { id: '9', subject: 'Inf 1 / Inf 2 / Kim 1 / Mat 1 / Mat 2 / Sej 1', subjectType: 'science', room: 'u know la', startTime: '11.50', endTime: '12.35' },
-      { id: '10', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas', startTime: '12.35', endTime: '13.05' },
-      { id: '11', subject: 'Bahasa Inggris', subjectType: 'language', room: 'Kelas XI-4', startTime: '13.05', endTime: '13.50' },
-      { id: '12', subject: 'Bahasa Inggris', subjectType: 'language', room: 'Kelas XI-4', startTime: '13.50', endTime: '14.35' },
+      { id: '2', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'science', room: 'Kelas Masing Masing', startTime: '06.50', endTime: '07.35' },
+      { id: '3', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '07.35', endTime: '08.15' },
+      { id: '4', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '08.15', endTime: '08.55' },
+      { id: '5', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '08.55', endTime: '09.35' },
+      { id: '6', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'break', room: 'Diluar Kelas', startTime: '09.35', endTime: '10.05' },
+      { id: '7', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'sports', room: 'GSG / Lapangan', startTime: '10.05', endTime: '10.45' },
+      { id: '8', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'sports', room: 'GSG / Lapangan', startTime: '10.45', endTime: '11.25' },
+      { id: '9', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'sports', room: 'GSG / Lapangan', startTime: '11.25', endTime: '12.05' },
+      { id: '10', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'math', room: 'Kelas XI-4', startTime: '12.05', endTime: '12.45' },
+      { id: '11', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'break', room: 'Diluar Kelas', startTime: '12.45', endTime: '13.15' },
+      { id: '12', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'math', room: 'Kelas XI-4', startTime: '13.15', endTime: '13.55' },
+      { id: '13', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'language', room: 'Kelas XI-4', startTime: '13.55', endTime: '14.35' },
+      { id: '14', subject: 'WEB JADWAL SUDAH PINDAH KE AKUN SEKOLAH', subjectType: 'language', room: 'Kelas XI-4', startTime: '14.35', endTime: '15.20' },
     ],
   },
 ];
@@ -58,6 +60,7 @@ export const subjectColors: Record<SubjectType, { bg: string; text: string; bord
   computer: { bg: 'bg-subject-computer/20', text: 'text-subject-computer', border: 'border-subject-computer/40' },
   break: { bg: 'bg-subject-break/20', text: 'text-subject-break', border: 'border-subject-break/40' },
   jam_walas: { bg: 'bg-subject-homeroom/20', text: 'text-subject-homeroom', border: 'border-subject-homeroom/40' },
+};
 
 export const subjectIcons: Record<SubjectType, string> = {
   math: '📐',
