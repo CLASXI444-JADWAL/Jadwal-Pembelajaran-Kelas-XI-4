@@ -9,7 +9,6 @@ export type SubjectType =
   | 'computer'
   | 'break'
   | 'jam_walas'
-  | 'mapil';
 
 export interface ScheduleItem {
   id: string;
@@ -59,8 +58,7 @@ export const subjectColors: Record<SubjectType, { bg: string; text: string; bord
   religion: { bg: 'bg-subject-religion/20', text: 'text-subject-religion', border: 'border-subject-religion/40' },
   computer: { bg: 'bg-subject-computer/20', text: 'text-subject-computer', border: 'border-subject-computer/40' },
   break: { bg: 'bg-subject-break/20', text: 'text-subject-break', border: 'border-subject-break/40' },
-  jam_walas: { bg: 'bg-subject-homeroom/20', text: 'text-subject-homeroom', border: 'border-subject-homeroom/40' },
-  mapil:  { bg: 'bg-subject-math/20', text: 'text-subject-mapil', border: 'border-subject-mapil/40' }};
+  jam_walas: { bg: 'bg-subject-homeroom/20', text: 'text-subject-homeroom', border: 'border-subject-homeroom/40' }
 
 export const subjectIcons: Record<SubjectType, string> = {
   math: '📐😘',
@@ -72,6 +70,5 @@ export const subjectIcons: Record<SubjectType, string> = {
   religion: '✝️😘',
   computer: '💻😘',
   break: '☕😘',
-  jam_walas: '🕐😘'
-  mapil: '😍😘',
+  jam_walas: '🕐😘',
 };
