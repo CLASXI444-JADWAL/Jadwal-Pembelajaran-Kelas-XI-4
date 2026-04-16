@@ -59,7 +59,7 @@ export const subjectColors: Record<SubjectType, { bg: string; text: string; bord
   break: { bg: 'bg-subject-break/20', text: 'text-subject-break', border: 'border-subject-break/40' },
   jam_walas: { bg: 'bg-subject-homeroom/20', text: 'text-subject-homeroom', border: 'border-subject-homeroom/40' },
 
-export: subjectIcons: Record<SubjectType, string> = {
+export const subjectIcons: Record<SubjectType, string> = {
   math: '📐',
   science: '🔬',
   language: '📚',
