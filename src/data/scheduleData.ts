@@ -32,7 +32,7 @@ export const scheduleData: DaySchedule[] = [
     dayShort: '',
     items: [
       { id: '1', subject: 'Upacara Pagi', subjectType: 'history', room: 'Kelas XI-4', startTime: '06.30', endTime: '08.00' },
-      { id: '2', subject: 'Jam Ke Enol', subjectType: 'jam_walas', room: 'Kelas XI-4', startTime: '08.15', endTime: '09.00' },
+      { id: '2', subject: 'PH Bhs. Inggris', subjectType: 'jam_walas', room: 'Kelas XI-4', startTime: '08.15', endTime: '09.00' },
       { id: '3', subject: 'Istirahat 1', subjectType: 'break', room: 'bebas dimana aj yg penting ga kluar sekol', startTime: '09.00', endTime: '09.30' },
       { id: '4', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '09.30', endTime: '10.00' },
       { id: '5', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '10.00', endTime: '10.30' },
