@@ -28,21 +28,19 @@ export interface DaySchedule {
 
 export const scheduleData: DaySchedule[] = [
   {
-    day: 'Senin',
+    day: 'Selasa',
     dayShort: '',
     items: [
-      { id: '1', subject: 'Senam Bersama', subjectType: 'religion', room: 'Kelas XI-4', startTime: '06.30', endTime: '08.20' },
-      { id: '2', subject: 'Bahasa Inggris', subjectType: 'language', room: 'Kelas XI-4', startTime: '08.30', endTime: '09.15' },
-      { id: '3', subject: 'Bahasa Inggris', subjectType: 'language', room: 'Kelas XI-4', startTime: '09.15', endTime: '09.50' },
-      { id: '4', subject: 'Istirahat 1', subjectType: 'break', room: 'bebas dimana aj yg penting ga kluar sekol', startTime: '09.50', endTime: '10.20' },
-      { id: '5', subject: 'PAK', subjectType: 'religion', room: 'Kelas XI-4', startTime: '10.20', endTime: '11.05' },
-      { id: '6', subject: 'PAK', subjectType: 'religion', room: 'Kelas XI-4', startTime: '11.05', endTime: '11.50' },
-      { id: '7', subject: 'Seni', subjectType: 'art', room: 'u know la', startTime: '11.50', endTime: '12.35' },
-      { id: '8', subject: 'Seni', subjectType: 'art', room: 'u know la', startTime: '12.35', endTime: '12.50' },
-      { id: '9', subject: 'Istirahat 2', subjectType: 'break', room: 'bebas dimana aj yg penting ga kluar sekol', startTime: '12.50', endTime: '13.20' },
-      { id: '10', subject: 'Bio / Kim / Eko 3&4 / Sej / Fis 2 / Fis 3', subjectType: 'science', room: 'u know la', startTime: '13.20', endTime: '14.05' },
-      { id: '11', subject: 'Bio / Kim / Eko 3&4 / Sej / Fis 2 / Fis 3', subjectType: 'science', room: 'u know la', startTime: '14.05', endTime: '14.50' },
-      { id: '12', subject: 'Bio / Kim / Eko 3&4 / Sej / Fis 2 / Fis 3', subjectType: 'science', room: 'bebas', startTime: '14.50', endTime: '15.20' },
+      { id: '1', subject: 'Upacara Pagi', subjectType: 'history', room: 'Kelas XI-4', startTime: '06.30', endTime: '08.00' },
+      { id: '2', subject: 'Jam Ke Enol', subjectType: 'jam_walas', room: 'Kelas XI-4', startTime: '08.15', endTime: '09.00' },
+      { id: '3', subject: 'Istirahat 1', subjectType: 'break', room: 'bebas dimana aj yg penting ga kluar sekol', startTime: '09.00', endTime: '09.30' },
+      { id: '4', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '09.30', endTime: '10.00' },
+      { id: '5', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '10.00', endTime: '10.30' },
+      { id: '6', subject: 'Bahasa Mandarin', subjectType: 'language', room: 'Kelas XI-4', startTime: '10.30', endTime: '11.00' },
+      { id: '7', subject: 'Bahasa Inggris', subjectType: 'language', room: 'Kelas XI-4', startTime: '11.00', endTime: '11.30' },
+      { id: '8', subject: 'Istirahat 2', subjectType: 'break', room: 'bebas dimana aj yg penting ga kluar sekol', startTime: '12.00', endTime: '12.30' },
+      { id: '9', subject: 'Classmeeting Adhigana', subjectType: 'jam_walas', room: 'bebas dimana aj yg penting ga kluar sekol', startTime: '12.00', endTime: '15.20' },
+      
       
     ],
   },
