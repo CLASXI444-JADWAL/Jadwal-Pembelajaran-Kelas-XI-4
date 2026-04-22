@@ -34,7 +34,7 @@ export const scheduleData: DaySchedule[] = [
       { id: '1', subject: 'Renungan Pagi', subjectType: 'religion', room: 'Kelas XI-4', startTime: '06.30', endTime: '06.50' },
       { id: '2', subject: 'Mat 1 / Mat 2 / Inf 1 / Inf 2 / Kim 1 / Sej 1', subjectType: 'language', room: 'Kelas XI-4', startTime: '06.50', endTime: '07.35' },
       { id: '3', subject: 'Mat 1 / Mat 2 / Inf 1 / Inf 2 / Kim 1 / Sej 1', subjectType: 'language', room: 'Kelas XI-4', startTime: '07.35', endTime: '08.20' },
-      { id: '4', subject: 'Mat 1 / Mat 2 / Inf 1 / Inf 2 / Kim 1 / Sej 1', subjectType: 'math', room: 'Kelas XI-4', startTime: '08.20', endTime: '09.05' }
+      { id: '4', subject: 'Mat 1 / Mat 2 / Inf 1 / Inf 2 / Kim 1 / Sej 1', subjectType: 'math', room: 'Kelas XI-4', startTime: '08.20', endTime: '09.05' },
       { id: '5', subject: 'Istirahat 1', subjectType: 'language', room: 'Bebas dimana aj yg penting ga kluar sekol', startTime: '09.05', endTime: '09.35' },
       { id: '6', subject: 'Mat 3 / Fis 1 / Sos 1 / Sos 2 / Eko 1&2 / Geo 1', subjectType: 'religion', room: 'bebas', startTime: '09.35', endTime: '10.20' },
       { id: '7', subject: 'Mat 3 / Fis 1 / Sos 1 / Sos 2 / Eko 1&2 / Geo 1', subjectType: 'religion', room: 'bebas', startTime: '10.20' endTime: '11.05' },
