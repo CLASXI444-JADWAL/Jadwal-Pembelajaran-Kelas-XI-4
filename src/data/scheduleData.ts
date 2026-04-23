@@ -28,24 +28,22 @@ export interface DaySchedule {
 
 export const scheduleData: DaySchedule[] = [
   {
-    day: 'Kamis',
+    day: 'Jumat',
     dayShort: '',
     items: [
       { id: '1', subject: 'Renungan Pagi', subjectType: 'religion', room: 'Kelas XI-4', startTime: '06.30', endTime: '06.50' },
-      { id: '2', subject: 'Jam Ke 0 : Assesment Akuntansi', subjectType: 'science', room: 'Ruang Kelas Masing Masing', startTime: '06.50', endTime: '07.35' },
-      { id: '3', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '07.35', endTime: '08.15' },
-      { id: '4', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '08.15', endTime: '08.55' },
-      { id: '5', subject: 'Matematika', subjectType: 'math', room: 'Kelas XI-4', startTime: '08.55', endTime: '09.35' },
-      { id: '6', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas (Tidak Diluar Area Lingkungan SMAK HI)', startTime: '09.35', endTime: '10.05' },
-      { id: '7', subject: 'PAK', subjectType: 'religion', room: 'Kelas XI-4', startTime: '10.05', endTime: '10.45' },
-      { id: '8', subject: 'Lab Bahasa Inggris', subjectType: 'language', room: 'Lab Bahasa Inggris', startTime: '10.45', endTime: '11.25' },
-      { id: '9', subject: 'Matematika', subjectType: 'math', room: 'Kelas XI-4', startTime: '11.25', endTime: '12.05' },
-      { id: '10', subject: 'Mat 3 / Fis 1 / Sosio 1 / Sosio 2 / Eko 1 dan 2 / Geo 1', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '12.05', endTime: '12.45' },
-      { id: '11', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas (Tidak Diluar Area Lingkungan SMAK HI)', startTime: '12.45', endTime: '13.15' },
-      { id: '12', subject: 'Mat 3 / Fis 1 / Sosio 1 / Sosio 2 / Eko 1 dan 2 / Geo 1', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '13.15', endTime: '13.55' },
-      { id: '13', subject: 'Mat 3 / Fis 1 / Sosio 1 / Sosio 2 / Eko 1 dan 2 / Geo 1', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '13.55', endTime: '14.35' },
-      { id: '14', subject: 'Sejarah', subjectType: 'history', room: 'Kelas XI-4', startTime: '14.35', endTime: '15.20' },
-    ],
+      { id: '2', subject: 'Jam Ke 0 : Assesment Matematika Lanjut', subjectType: 'science', room: 'Ruang Kelas Masing Masing', startTime: '06.50', endTime: '07.35' },
+      { id: '3', subject: 'Sosio 3 / Sosio 4 / Geo 2 / Infor 3 / Infor 4 / Bio 2', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '07.35', endTime: '08.20' },
+      { id: '4', subject: 'Sosio 3 / Sosio 4 / Geo 2 / Infor 3 / Infor 4 / Bio 2', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '08.20', endTime: '09.05' },
+      { id: '5', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas (Tidak Diluar Area Lingkungan SMAK HI)', startTime: '09.05', endTime: '09.35' },
+      { id: '6', subject: 'Bio 1 / Kim 2 / Eko 3 dan 4 / Sej 2 / Fis 2 / Fis 3', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '09.35', endTime: '10.20' },
+      { id: '7', subject: 'Bio 1 / Kim 2 / Eko 3 dan 4 / Sej 2 / Fis 2 / Fis 3', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '10.20', endTime: '11.05' },
+      { id: '8', subject: 'Mat 1 / Mat 2 / Infor 1 / Infor 2 / Kim 1 / Sej 1', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '11.05', endTime: '11.50' },
+      { id: '9', subject: 'Mat 1 / Mat 2 / Infor 1 / Infor 2 / Kim 1 / Sej 1', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '11.50', endTime: '12.35' },
+      { id: '10', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas (Tidak Diluar Area Lingkungan SMAK HI)', startTime: '12.35', endTime: '13.05' },
+      { id: '11', subject: 'Matematika', subjectType: 'math', room: 'Kelas XI-4', startTime: '13.05', endTime: '13.50' },
+      { id: '12', subject: 'Matematika', subjectType: 'math', room: 'Kelas XI-4', startTime: '13.50', endTime: '14.35' },
+    ]
   },
 ];
 
