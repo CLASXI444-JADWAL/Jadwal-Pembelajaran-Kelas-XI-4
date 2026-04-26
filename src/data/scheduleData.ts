@@ -28,22 +28,22 @@ export interface DaySchedule {
 
 export const scheduleData: DaySchedule[] = [
   {
-    day: 'Jumat',
+    day: 'Senin',
     dayShort: '',
     items: [
-      { id: '1', subject: 'Renungan Pagi', subjectType: 'religion', room: 'Kelas XI-4', startTime: '06.30', endTime: '06.50' },
-      { id: '2', subject: 'Jam Ke 0 : Assesment Matematika Lanjut', subjectType: 'science', room: 'Ruang Kelas Masing Masing', startTime: '06.50', endTime: '07.35' },
-      { id: '3', subject: 'Sosio 3 / Sosio 4 / Geo 2 / Infor 3 / Infor 4 / Bio 2', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '07.35', endTime: '08.15' },
-      { id: '4', subject: 'Sosio 3 / Sosio 4 / Geo 2 / Infor 3 / Infor 4 / Bio 2', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '08.15', endTime: '08.55' },
-      { id: '5', subject: 'Sosio 3 / Sosio 4 / Geo 2 / Infor 3 / Infor 4 / Bio 2', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '08.55', endTime: '09.35' },
-      { id: '6', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas (Tidak Diluar Lingkungan SMAK HI)', startTime: '09.35', endTime: '10.05' },
-      { id: '7', subject: 'Bio 1 / Kim 2 / Eko 3 dan 4 / Sej 2 / Fis 2 / Fis 3', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '10.05', endTime: '10.45' },
-      { id: '8', subject: 'Bio 1 / Kim 2 / Eko 3 dan 4 / Sej 2 / Fis 2 / Fis 3', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '10.45', endTime: '11.25' },
-      { id: '9', subject: 'Mat 1 / Mat 2 / Infor 1 / Infor 2 / Kim 1 / Sej 1', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '11.25', endTime: '12.05' },
-      { id: '10', subject: 'Mat 1 / Mat 2 / Infor 1 / Infor 2 / Kim 1 / Sej 1', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '12.05', endTime: '12.45' },
-      { id: '11', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas (Tidak Diluar Lingkungan SMAK HI)', startTime: '12.45', endTime: '13.15' },
-      { id: '12', subject: 'Matematika', subjectType: 'math', room: 'Matematika', startTime: '13.15', endTime: '13.55' },
-      { id: '13', subject: 'Matematika', subjectType: 'math', room: 'Matematika', startTime: '13.55', endTime: '14.35' },
+      { id: '1', subject: 'Ibadah', subjectType: 'religion', room: 'GSG', startTime: '06.30', endTime: '08.00' },
+      { id: '2', subject: 'Jam Ke 0 : Literasi', subjectType: 'science', room: 'Ruang Kelas Masing Masing', startTime: '08.00', endTime: '08.45' },
+      { id: '3', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Ruang Kelas XI-4', startTime: '08.45', endTime: '09.25' },
+      { id: '4', subject: 'Istirahat 1', subjectType: 'break', room: 'dimana aja', startTime: '09.25', endTime: '09.55' },
+      { id: '5', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Ruang Kelas XI-4', startTime: '09.55', endTime: '10.35' },
+      { id: '6', subject: 'PAK', subjectType: 'religion', room: 'Ruang Kelas XI-4', startTime: '10.35', endTime: '11.15' },
+      { id: '7', subject: 'PAK', subjectType: 'religion', room: 'Ruang Kelas XI-4', startTime: '11.15', endTime: '11.55' },
+      { id: '8', subject: 'SENI', subjectType: 'art', room: 'Ruang Kelas Masing Masing', startTime: '11.55', endTime: '12.30' },
+      { id: '9', subject: 'Istirahat 1', subjectType: 'break', room: 'dimana aja', startTime: '12.30', endTime: '13.00' },
+      { id: '10', subject: 'SENI', subjectType: 'art', room: 'Ruang Kelas Masing Masing', startTime: '13.00', endTime: '13.35' },
+      { id: '11', subject: 'Bio / Kim / Eko 3&4 / Sej / Fis 2 / Fis 3', subjectType: 'science', room: 'Ruang Kelas Masing Masing', startTime: '13.35', endTime: '14.10' },
+      { id: '12', subject: 'Bio / Kim / Eko 3&4 / Sej / Fis 2 / Fis 3', subjectType: 'science', room: 'Ruang Kelas Masing Masing', startTime: '14.10', endTime: '14.45' },
+      { id: '13', subject: 'Bio / Kim / Eko 3&4 / Sej / Fis 2 / Fis 3', subjectType: 'science', room: 'Ruang Kelas Masing Masing', startTime: '14.45', endTime: '15.20' },
     ]
   },
 ];
