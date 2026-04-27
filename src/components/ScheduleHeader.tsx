@@ -85,7 +85,7 @@ export function ScheduleHeader() {
         </div>
         <div className="text-left" style={{ transform: hovered ? 'translateZ(20px)' : 'translateZ(0)', transition: 'transform 0.3s ease' }}>
           <p className="text-sm text-muted-foreground">Tanggal Hari Ini</p>
-          <p className="font-bold text-foreground text-lg">Senin, 27 April 2026</p>
+          <p className="font-bold text-foreground text-lg">Selasa, 28 April 2026</p>
         </div>
       </div>
     </header>
