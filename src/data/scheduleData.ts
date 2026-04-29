@@ -28,7 +28,7 @@ export interface DaySchedule {
 
 export const scheduleData: DaySchedule[] = [
   {
-    day: 'Rabu',
+    day: 'Kamis',
     dayShort: '',
     items: [
       { id: '1', subject: 'Renungan', subjectType: 'religion', room: 'kelas xi4', startTime: '06.30', endTime: '06.50' },
@@ -36,8 +36,8 @@ export const scheduleData: DaySchedule[] = [
       { id: '3', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '07.35', endTime: '08.20' },
       { id: '4', subject: 'Matematika', subjectType: 'math', room: 'Kelas XI-4', startTime: '08.20', endTime: '09.05' },
       { id: '5', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas', startTime: '09.05', endTime: '09.35' },
-      { id: '6', subject: 'PAK', subjectType: 'religion', room: 'Kelas XI-4', startTime: '09.35', endTime: '10.20' },
-      { id: '7', subject: 'Lab Bahasa Inggris / PAK', subjectType: 'language', room: 'Lab bahasa Inggris', startTime: '10.20', endTime: '11.05' },
+      { id: '6', subject: 'Lab Bahasa Inggris', subjectType: 'language', room: 'Kelas XI-4', startTime: '09.35', endTime: '10.20' },
+      { id: '7', subject: 'Lab Bahasa Inggris', subjectType: 'language', room: 'Lab bahasa Inggris', startTime: '10.20', endTime: '11.05' },
       { id: '8', subject: 'Matematika', subjectType: 'math', room: 'Kelas XI-4', startTime: '11.05', endTime: '11.50' },
       { id: '9', subject: 'Mat 3 / Fis 1 / Sosio 1 / Sosio 2 / Eko 1 dan 2 / Geo 1', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '11.50', endTime: '12.35' },
       { id: '10', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas', startTime: '12.35', endTime: '13.05' },
