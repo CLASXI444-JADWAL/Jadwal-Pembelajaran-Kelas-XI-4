@@ -28,22 +28,22 @@ export interface DaySchedule {
 
 export const scheduleData: DaySchedule[] = [
   {
-    day: 'Kamis',
+    day: 'Senin',
     dayShort: '',
     items: [
       { id: '1', subject: 'Renungan', subjectType: 'religion', room: 'kelas xi4', startTime: '06.30', endTime: '06.50' },
-      { id: '2', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '06.50', endTime: '07.35' },
-      { id: '3', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '07.35', endTime: '08.20' },
-      { id: '4', subject: 'Matematika', subjectType: 'math', room: 'Kelas XI-4', startTime: '08.20', endTime: '09.05' },
-      { id: '5', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas', startTime: '09.05', endTime: '09.35' },
-      { id: '6', subject: 'Lab Bahasa Inggris', subjectType: 'language', room: 'Kelas XI-4', startTime: '09.35', endTime: '10.20' },
-      { id: '7', subject: 'Lab Bahasa Inggris', subjectType: 'language', room: 'Lab bahasa Inggris', startTime: '10.20', endTime: '11.05' },
-      { id: '8', subject: 'Matematika', subjectType: 'math', room: 'Kelas XI-4', startTime: '11.05', endTime: '11.50' },
-      { id: '9', subject: 'Mat 3 / Fis 1 / Sosio 1 / Sosio 2 / Eko 1 dan 2 / Geo 1', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '11.50', endTime: '12.35' },
-      { id: '10', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas', startTime: '12.35', endTime: '13.05' },
-      { id: '11', subject: 'Mat 3 / Fis 1 / Sosio 1 / Sosio 2 / Eko 1 dan 2 / Geo 1', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '13.05', endTime: '13.50' },
-      { id: '12', subject: 'Mat 3 / Fis 1 / Sosio 1 / Sosio 2 / Eko 1 dan 2 / Geo 1', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Pilihan Masing Masing', startTime: '13.50', endTime: '14.35' },
-      { id: '13', subject: 'Sejarah', subjectType: 'history', room: 'Kelas XI-4', startTime: '14.35', endTime: '15.20' },
+      { id: '2', subject: '', subjectType: '', room: '', startTime: '06.50', endTime: '07.35' },
+      { id: '3', subject: '', subjectType: '', room: '', startTime: '07.35', endTime: '08.20' },
+      { id: '4', subject: '', subjectType: '', room: '', startTime: '08.20', endTime: '09.05' },
+      { id: '5', subject: '', subjectType: '', room: '', startTime: '09.05', endTime: '09.35' },
+      { id: '6', subject: '', subjectType: '', room: '', startTime: '09.35', endTime: '10.20' },
+      { id: '7', subject: '', subjectType: '', room: '', startTime: '10.20', endTime: '11.05' },
+      { id: '8', subject: '', subjectType: '', room: '', startTime: '11.05', endTime: '11.50' },
+      { id: '9', subject: '', subjectType: '', room: '', startTime: '11.50', endTime: '12.35' },
+      { id: '10', subject: '', subjectType: '', room: '', startTime: '12.35', endTime: '13.05' },
+      { id: '11', subject: '', subjectType: '', room: '', startTime: '13.05', endTime: '13.50' },
+      { id: '12', subject: '', subjectType: '', room: '', startTime: '13.50', endTime: '14.35' },
+      { id: '13', subject: '', subjectType: '', room: '', startTime: '14.35', endTime: '15.20' },
     ]
   },
 ];
