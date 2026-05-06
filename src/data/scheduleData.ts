@@ -28,23 +28,23 @@ export interface DaySchedule {
 
 export const scheduleData: DaySchedule[] = [
   {
-    day: 'Rabu',
+    day: 'Kamis',
     dayShort: '',
     items: [
       { id: '1', subject: 'Renungan', subjectType: 'religion', room: 'Kelas XI4', startTime: '06.30', endTime: '06.50' },
-      { id: '2', subject: 'PH PP', subjectType: 'jam_walas', room: 'Kelas XI4', startTime: '06.50', endTime: '07.35' },
-      { id: '3', subject: 'mapil 1', subjectType: 'science', room: 'Kelas XI4', startTime: '07.35', endTime: '08.15' },
-      { id: '4', subject: 'mapil 1', subjectType: 'science', room: 'Bebas', startTime: '08.15', endTime: '08.55' },
-      { id: '5', subject: 'mapil 1', subjectType: 'science', room: 'Kelas XI4', startTime: '08.55', endTime: '09.35' },
-      { id: '6', subject: 'isti 1', subjectType: 'break', room: 'Kelas XI4', startTime: '09.35', endTime: '10.05' },
-      { id: '7', subject: 'mapil 2', subjectType: 'science', room: 'Kelas Masing2', startTime: '10.05', endTime: '10.45' },
-      { id: '8', subject: 'mapil 2', subjectType: 'science', room: 'Kelas Masing2', startTime: '10.45', endTime: '11.25' },
-      { id: '9', subject: 'mapil 3', subjectType: 'science', room: 'Kelas Masing2', startTime: '11.25', endTime: '12.05' },
-      { id: '10', subject: 'mapil 3', subjectType: 'science', room: 'Kelas Masing2', startTime: '12.05', endTime: '12.45' },
-      { id: '11', subject: 'isti 2', subjectType: 'break', room: 'Bebas', startTime: '12.45', endTime: '13.15' },
-      { id: '12', subject: 'PP', subjectType: 'history', room: 'Kelas XI4', startTime: '13.15', endTime: '13.55' },
-      { id: '13', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI4', startTime: '13.55', endTime: '14.35' },
-      { id: '14', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI4', startTime: '13.15', endTime: '13.55' },
+      { id: '2', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI4', startTime: '06.50', endTime: '07.20' },
+      { id: '3', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI4', startTime: '07.20', endTime: '07.50' },
+      { id: '4', subject: 'Mat Wajib', subjectType: 'math', room: 'Kelas XI4', startTime: '07.50', endTime: '08.20' },
+      { id: '5', subject: 'Lab Inggris', subjectType: 'language', room: 'Kelas XI4', startTime: '08.20', endTime: '08.50' },
+      { id: '6', subject: 'Lab Inggris', subjectType: 'language', room: 'Kelas XI4', startTime: '08.50', endTime: '09.20' },
+      { id: '7', subject: 'Isti 1', subjectType: 'break', room: 'Kelas Masing2', startTime: '09.20', endTime: '09.50' },
+      { id: '8', subject: 'Mat Wajib', subjectType: 'math', room: 'Kelas Masing2', startTime: '09.50', endTime: '10.25' },
+      { id: '9', subject: 'mapil 1', subjectType: 'science', room: 'Kelas Masing2', startTime: '10.25', endTime: '10.55' },
+      { id: '10', subject: 'mapil 1', subjectType: 'science', room: 'Kelas Masing2', startTime: '10.55', endTime: '11.25' },
+      { id: '11', subject: 'mapil 1', subjectType: 'science', room: 'Bebas', startTime: '11.25', endTime: '11.55' },
+      { id: '12', subject: 'Sejarah Wajib', subjectType: 'history', room: 'Kelas XI4', startTime: '11.55', endTime: '12.30' },
+      { id: '13', subject: 'Isti 2', subjectType: 'break', room: 'Kelas XI4', startTime: '12.30', endTime: '13.00' },
+      
     ]
   },
 ];
