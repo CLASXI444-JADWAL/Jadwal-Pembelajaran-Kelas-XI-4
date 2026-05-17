@@ -28,22 +28,23 @@ export interface DaySchedule {
 
 export const scheduleData: DaySchedule[] = [
   {
-    day: 'Selasa',
+    day: 'Senin',
     dayShort: '',
     items: [
       { id: '1', subject: 'Renungan', subjectType: 'religion', room: 'Kelas XI4', startTime: '06.30', endTime: '06.50' },
-      { id: '2', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '06.50', endTime: '07.35' },
-      { id: '3', subject: 'Bahasa Indonesia', subjectType: 'language', room: 'Kelas XI-4', startTime: '07.35', endTime: '08.20' },
-      { id: '4', subject: 'Native', subjectType: 'language', room: 'Kelas XI-4', startTime: '08.20', endTime: '09.05' },
-      { id: '5', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas', startTime: '09.05', endTime: '09.35' },
-      { id: '6', subject: 'PJOK', subjectType: 'sports', room: 'GSG / Lapangan / Kelas XI-4', startTime: '09.35', endTime: '10.20' },
-      { id: '7', subject: 'PJOK', subjectType: 'sports', room: 'GSG / Lapangan / Kelas XI-4', startTime: '10.20', endTime: '11.05' },
-      { id: '8', subject: 'PJOK', subjectType: 'sports', room: 'GSG / Lapangan / Kelas XI-4', startTime: '11.05', endTime: '11.50' },
-      { id: '9', subject: 'Mandarin', subjectType: 'language', room: 'Kelas XI-4', startTime: '11.50', endTime: '12.35' },
-      { id: '10', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas', startTime: '12.35', endTime: '13.05' },
-      { id: '11', subject: 'Matematika', subjectType: 'math', room: 'Kelas XI-4', startTime: '13.05', endTime: '13.50' },
-      { id: '12', subject: 'Bahasa Sunda', subjectType: 'language', room: 'Kelas XI-4', startTime: '13.50', endTime: '14.35' },
-      { id: '13', subject: 'Bahasa Inggris (Pengambilan Nilai)', subjectType: 'language', room: 'Kelas XI-4', startTime: '14.35', endTime: '15.20' },
+      { id: '2', subject: 'Assesment Bahasa Inggris', subjectType: 'science', room: 'Kelas XI-4', startTime: '06.50', endTime: '07.35' },
+      { id: '3', subject: 'KTB', subjectType: 'religion', room: 'Kelas XI-4', startTime: '07.35', endTime: '08.15' },
+      { id: '4', subject: 'Bahasa Inggris', subjectType: 'language', room: 'Kelas XI-4', startTime: '08.15', endTime: '08.55' },
+      { id: '5', subject: 'Bahasa Inggris', subjectType: 'language', room: 'Kelas XI-4', startTime: '08.55', endTime: '09.35' },
+      { id: '6', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas', startTime: '09.35', endTime: '10.05' },
+      { id: '7', subject: 'Matematika', subjectType: 'math', room: 'Kelas XI-4', startTime: '10.05', endTime: '10.45' },
+      { id: '8', subject: 'Bahasa Mandarin', subjectType: 'language', room: 'Kelas XI-4', startTime: '10.45', endTime: '11.25' },
+      { id: '9', subject: 'Seni Budaya', subjectType: 'art', room: 'Ruang Kelas Seni Masing Masing', startTime: '11.25', endTime: '12.05' },
+      { id: '10', subject: 'Seni Budaya', subjectType: 'art', room: 'Ruang Kelas Seni Masing Masing', startTime: '12.05', endTime: '12.45' },
+      { id: '11', subject: 'Istirahat', subjectType: 'break', room: 'Diluar Kelas', startTime: '12.45', endTime: '13.15' },
+      { id: '12', subject: 'Bio / Kim / Eko 3 dan 4 / Sej / Fis 2 / Fis 3', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Masing Masing', startTime: '13.15', endTime: '13.55' },
+      { id: '13', subject: 'Bio / Kim / Eko 3 dan 4 / Sej / Fis 2 / Fis 3', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Masing Masing', startTime: '13.55', endTime: '14.35' },
+      { id: '14', subject: 'Bio / Kim / Eko 3 dan 4 / Sej / Fis 2 / Fis 3', subjectType: 'science', room: 'Ruang Kelas Mata Pelajaran Masing Masing', startTime: '14.35', endTime: '15.20' },
     ]
   },
 ];
