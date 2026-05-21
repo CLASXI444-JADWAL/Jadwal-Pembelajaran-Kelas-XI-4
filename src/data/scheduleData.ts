@@ -33,8 +33,8 @@ export const scheduleData: DaySchedule[] = [
     items: [
       { id: '1', subject: 'Renungan', subjectType: 'religion', room: 'Kelas XI4', startTime: '06.30', endTime: '06.50' },
       { id: '2', subject: 'Assesment Matematika Lanjut', subjectType: 'science', room: 'Kelas Assesment Masing Masing', startTime: '06.50', endTime: '07.35' },
-      { id: '3', subject: 'PAK', subjectType: 'religion', room: 'Kelas XI-4', startTime: '07.35', endTime: '08.00' },
-      { id: '4', subject: 'Lab Bahasa Inggris', subjectType: 'language', room: 'Lab B.ing', startTime: '08.00', endTime: '08.25' },
+      { id: '3', subject: 'Lab Bahasa Inggris', subjectType: 'religion', room: 'Kelas XI-4', startTime: '07.35', endTime: '08.00' },
+      { id: '4', subject: 'Lab Bahasa Inggris', subjectType: 'language', room: 'Kelas XI-4', startTime: '08.00', endTime: '08.25' },
       { id: '5', subject: 'PAK', subjectType: 'religion', room: 'Kelas XI-4', startTime: '08.25', endTime: '08.50' },
       { id: '6', subject: 'PAK', subjectType: 'religion', room: 'Kelas XI-4', startTime: '08.50', endTime: '09.15' },
       { id: '7', subject: 'Matematika', subjectType: 'math', room: 'Kelas XI-4', startTime: '09.15', endTime: '09.40' },
