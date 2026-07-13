@@ -111,7 +111,7 @@ export function InfoTables() {
             rel="noopener noreferrer"
             className="block text-center font-semibold text-base py-3 px-6 border-2 border-pink-500/70 rounded-lg hover:bg-pink-500/20 transition-colors"
           >
-            WorkSpace XI4
+            WorkSpace XII-5
           </a>
           
           <div className="space-y-2">
@@ -122,7 +122,7 @@ export function InfoTables() {
               rel="noopener noreferrer"
               className="flex items-center justify-center gap-2 font-semibold text-base py-3 px-6 border-2 border-pink-500/70 rounded-lg hover:bg-pink-500/20 transition-colors w-full"
             >
-              <span>🤓</span> List Tugas XI-4 Mapel Wajib
+              <span>🤓</span> List Tugas XII-5 Mapel Wajib
             </a>
           </div>
 

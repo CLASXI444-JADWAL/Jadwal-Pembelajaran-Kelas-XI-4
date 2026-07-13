@@ -47,7 +47,7 @@ export function ScheduleHeader() {
       </h1>
       
       <p className="text-muted-foreground text-lg md:text-xl mb-6 opacity-0 animate-slide-up" style={{ animationDelay: '200ms', animationFillMode: 'forwards' }}>
-        Kelas XI-4 • Semester Genap 2025/2026
+        Kelas XII-5 • Semester Ganjil 2026/2027
       </p>
 
       {/* 3D Date Card */}
